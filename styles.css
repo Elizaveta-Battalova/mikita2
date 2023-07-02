@@ -123,13 +123,19 @@ ul#topnav li > ul > li {
   text-align: left;
 }
 
-.pageitem h2,
+.pageitem h2 {
+  font-size: 180%;
+  background-color: inherit;
+  color: #444;
+  margin-top: 0;
+}
 .play-name {
   font-size: 180%;
   background-color: inherit;
   color: #444;
   margin-top: 0;
-  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .pageitem p {
@@ -137,10 +143,6 @@ ul#topnav li > ul > li {
   margin: 1em 0;
   font-size: 115%;
   line-height: 175%;
-}
-
-.pageitem a {
-  text-decoration: underline;
 }
 
 .pageitem .col {
