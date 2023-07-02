@@ -67,7 +67,7 @@ ul#topnav li {
 ul#topnav li a {
   display: block;
   padding: 8px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul#topnav li a:hover {
